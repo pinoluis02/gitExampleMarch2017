@@ -18,6 +18,7 @@ class ViewController: UIViewController {
         view.backgroundColor = UIColor.blue
         let lblName = UILabel()
         lblName.frame = CGRect(x: 10, y: 10, width: 100, height: 30)
+        lblName.text = "Perez"
         lblName.text = name
         lblName.textColor = UIColor.blue
         view.addSubview(lblName)
