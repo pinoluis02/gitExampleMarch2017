@@ -10,9 +10,16 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    let name = "Luis"
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        view.backgroundColor = UIColor.blue
+        let lblName = UILabel()
+        lblName.frame = CGRect(x: 10, y: 10, width: 100, height: 30)
+        lblName.text = name
+        view.addSubview(lblName)
     }
 
     override func didReceiveMemoryWarning() {
