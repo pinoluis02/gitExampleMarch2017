@@ -20,6 +20,7 @@ class ViewController: UIViewController {
         lblName.frame = CGRect(x: 10, y: 10, width: 100, height: 30)
         lblName.text = "Perez"
         lblName.text = name
+        lblName.layer.cornerRadius = 20
         lblName.textColor = UIColor.blue
         view.addSubview(lblName)
     }
